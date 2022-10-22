@@ -10,7 +10,7 @@ public class DetectVR : MonoBehaviour
     public GameObject XR_Origin; 
      public GameObject NonVR_Camera;
 
-    void Awake()
+    void start()
     {
 
         var xrSettings = XRGeneralSettings.Instance;
@@ -54,16 +54,6 @@ public class DetectVR : MonoBehaviour
     }
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-      
-    }
-
-    
-
-    // Update is called once per frame
     void Update()
     {
        

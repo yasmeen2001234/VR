@@ -92,7 +92,7 @@ public class SpawnManager : MonoBehaviour
             if (PhotonNetwork.IsConnectedAndReady)
             {
                 PhotonNetwork.Instantiate(ThirdPersonAvatar.name, spawnPositionNONVR, Quaternion.identity);
-                Debug.Log(view.Owner.NickName + " Spawned a Non VR Avatar");
+              //  Debug.Log(view.Owner.NickName + " Spawned a Non VR Avatar");
             }
             return;
         }
