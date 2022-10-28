@@ -44,6 +44,8 @@ MonoBehaviour:
   - CantHearYou
   - ChangeColour
   - HeresWhy
+  - Send
+  - SetKinematic
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1
